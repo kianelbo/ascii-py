@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools>=77.0.3", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,7 +7,9 @@ name = "asciipy"
 version = "1.0.0"
 description = "Convert images into ASCII art"
 readme = "README.md"
-license = {text = "GPL-3.0"}
+requires-python = ">=3.10"
+license = "GPL-3.0"
+license-files = ["LICEN[CS]E*"]
 authors = [{ name="Kian Eliasi", email="kianelbo@gmail.com" }]
 dependencies = [
     "Pillow>=11.3.0"
